@@ -10,12 +10,8 @@ function $(selector){
 }
 
 function load(){
-	var canvas = $('#webgl-canvas');
-	canvas.style.width = document.body.offsetWidth + 'px';
-	canvas.style.height = document.body.offsetHeight + 'px';
+	var demo = $('#dust-demo');
+	var dust = new Dust(demo);
 	
-	canvas.width = document.body.offsetWidth;
-	canvas.height = document.body.offsetHeight;
 	
-
 }
